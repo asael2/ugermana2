@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+header{
+    height: 130px;
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li {
+    border:1px solid blue;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    background: orange;
+    font-size: 1.5em;
+    padding: 0.24em;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+nav ul li a:link{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h1{
+    padding: 4px;
+    margin: 2px;
+    font-size: 3em;
+}
+
+#personales ul{
+    display: inline-block;
+    font-size: 1.4em;
+}
+
+#personales img{
+    width: 300px;
+    float: left;
+}
+
+#personales{
+    border-bottom: 1px solid gray;
+    height: 300px;
+}
+
+h3{
+    font-size: 1.8em;
+    font-style: italic;
+}
+
+.seccion{
+    padding: 2em;
+}
+
+#educacion{
+    text-align: center; 
+}
+#educacion table{
+    margin: auto;
+    text-align: left;
+}
+
+#educacion table{
+    border: 1px solid gray;
+}
+
+#educacion table thead th{
+ font-weight: bold;
+ font-size: 1.5em;
+ text-align: center;
+}
+
+#educacion td{
+    padding: 1em;
+    border: 1px solid yellow;
+}
+
+#experiencia{
+    text-align: center;
+    vertical-align: top;
+}
+
+#experiencia .tarjetita{
+    border: 1px solid red;
+    width: 20%;
+    display: inline-block;
+    min-height: 150px;
+    vertical-align: top;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px red;
+    padding: 1.5em;
+}
