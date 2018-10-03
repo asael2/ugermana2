@@ -46,15 +46,13 @@ class auto{
 }
 
 
-
-
 $(document).ready(function(){
         $.getJSON("https://jsonplaceholder.typicode.com/users", function(result){
             $.each(result, function(i, field){
                 
                 $(".ajaxes").append("<li>"+field.name+ " | "+field.email + "</li>" )
                 
-                
+
             });
         });
 });
